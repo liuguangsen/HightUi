@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/play"
+        android:icon="@mipmap/play"
+        android:title="play"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/other"
+        android:icon="@mipmap/more"
+        android:title="other"
+        app:showAsAction="ifRoom"/>
+
+</menu>
